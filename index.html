@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cities">
+        <span id="dubai" class="UAE" onclick="getCity(this)">دبي</span>
+        <span id="abudhabi" class="UAE" onclick="getCity(this)">ابوظبي</span>
+        <span id="sharjah" class="UAE" onclick="getCity(this)">الشارقة</span>
+        <span id="Ajman" class="UAE" onclick="getCity(this)">عجمان</span>
+        <span id="Ras Al Khaimah" class="UAE" onclick="getCity(this)"
+          >راس الخيمة</span
+        >
+        <span id="ummalquwain" class="UAE" onclick="getCity(this)"
+          >أم القيوين</span
+        >
+        <span id="cairo" class="egypt" onclick="getCity(this)">القاهرة</span>
+        <span id="alexandria" class="egypt" onclick="getCity(this)"
+          >الاسكندرية</span
+        >
+        <span id="sohag" class="egypt" onclick="getCity(this)">سوهاج</span>
+        <span id="Makkah" class="KSA" onclick="getCity(this)">مكة</span>
+        <span id="Madinah" class="KSA" onclick="getCity(this)">المدينة</span>
+        <span id="Riyadh" class="KSA" onclick="getCity(this)">الرياض</span>
+      </div>
+      <div class="times-container">
+        <div class="city">
+          <h1>دبي</h1>
+        </div>
+        <div class="times">
+          <div class="time">
+            <div class="azan">
+              <h3>الفجر</h3>
+            </div>
+            <div class="clock">
+              <h3>AM 5:22</h3>
+            </div>
+          </div>
+          <div class="time">
+            <div class="azan">
+              <h3>الظهر</h3>
+            </div>
+            <div class="clock">
+              <h3>PM 12:00</h3>
+            </div>
+          </div>
+          <div class="time">
+            <div class="azan">
+              <h3>العصر</h3>
+            </div>
+            <div class="clock">
+              <h3>PM 5:22</h3>
+            </div>
+          </div>
+          <div class="time">
+            <div class="azan">
+              <h3>المغرب</h3>
+            </div>
+            <div class="clock">
+              <h3>PM 5:22</h3>
+            </div>
+          </div>
+          <div class="time">
+            <div class="azan">
+              <h3>العشاء</h3>
+            </div>
+            <div class="clock">
+              <h3>PM 6:22</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script src="./app.js"></script>
+</html>
